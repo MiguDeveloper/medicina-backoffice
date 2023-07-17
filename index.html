@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./jquery-ui.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid main-head">
+      <div class="container-xl">
+        <header class="head d-flex justify-content-between">
+          <div
+            class="brands-parnerts d-flex justify-content-between align-items-center gap-4"
+          >
+            <img src="img/SABELOGO.svg" height="50px" alt="IPFE" title="IPFE" />
+            <div class="line-vertical"></div>
+            <img src="img/UPCLOGO.svg" height="50px" alt="UPC" title="UPC" />
+          </div>
+          <div class="user-zone">
+            <nav>
+              <ul>
+                <li>
+                  <a
+                    class="user-auth d-flex-sabe align-items-center gap-1"
+                    href="#"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-user"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="1"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                      <path
+                        d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"
+                      ></path>
+                    </svg>
+                    Bienvenido(a); Usuario Andrea Vázques
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="red"
+                      class="bi bi-caret-down-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                      />
+                    </svg>
+                  </a>
+                  <ul class="sub-items">
+                    <li>
+                      <a href="#"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-mail-opened"
+                          width="24"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          stroke-width="1"
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            stroke="none"
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          ></path>
+                          <path d="M3 9l9 6l9 -6l-9 -6l-9 6"></path>
+                          <path
+                            d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"
+                          ></path>
+                          <path d="M3 19l6 -6"></path>
+                          <path d="M15 13l6 6"></path>
+                        </svg>
+                        Bandeja</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-lock"
+                          width="24"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          stroke-width="1"
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            stroke="none"
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          ></path>
+                          <path
+                            d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z"
+                          ></path>
+                          <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"></path>
+                          <path d="M8 11v-4a4 4 0 1 1 8 0v4"></path>
+                        </svg>
+                        Cambiar Contraseña</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-logout"
+                          width="24"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          stroke-width="1"
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            stroke="none"
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          ></path>
+                          <path
+                            d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2"
+                          ></path>
+                          <path d="M9 12h12l-3 -3"></path>
+                          <path d="M18 15l3 -3"></path>
+                        </svg>
+                        Cerrar Sesión</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div class="container">
+      <nav class="d-flex-sabe justify-content-center mt-3">
+        <ul>
+          <li><a href="#">INSTRUCCIONES</a></li>
+          <li>
+            <a href="#"
+              >INFORMACIÓN
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="red"
+                class="bi bi-caret-down-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+            </a>
+
+            <ul>
+              <li><a href="#">Información Personal</a></li>
+              <li><a href="#">Información Responsable(s) Económico(s)</a></li>
+              <li><a href="#">Información Socioeconómica</a></li>
+              <li><a href="#">Información de Propiedades</a></li>
+            </ul>
+          </li>
+          <li><a href="#">COMPOSICIÓN FAMILIAR</a></li>
+          <li><a href="#">ADJUNTAR DOCUMENTOS</a></li>
+          <li>
+            <a href="#"
+              >SOLICITUD
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="red"
+                class="bi bi-caret-down-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+            </a>
+
+            <ul>
+              <li><a href="#">Estado de Solicitud</a></li>
+              <li><a href="#">Enviar Solicitud</a></li>
+            </ul>
+          </li>
+          <li><a href="#">FORMATOS</a></li>
+        </ul>
+      </nav>
+
+      <h1 class="title-section">Información Personal</h1>
+
+      <!-- cuadro resumen de datos -->
+      <div class="d-flex-sabe justify-content-center">
+        <section class="d-flex-sabe justify-content-between info-user">
+          <div class="d-flex-sabe flex-column">
+            <div class="d-flex-sabe gap-4">
+              <label class="text-bold">Nombre</label>
+              <span class="text-start">ANDREA BELEN VÁZQUEZ CALMET</span>
+            </div>
+            <div class="d-flex-sabe gap-4 data-right">
+              <label class="text-bold">DNI</label>
+              <span class="text-start">73081705</span>
+            </div>
+          </div>
+          <div class="d-flex-sabe flex-column">
+            <div class="d-flex-sabe gap-4">
+              <label class="text-bold">Género</label>
+              <span class="text-start">FEMENINO</span>
+            </div>
+            <div class="d-flex-sabe gap-4 data-right">
+              <label class="text-bold">Lugar de nacimiento</label>
+              <span class="text-start">PERÚ</span>
+            </div>
+          </div>
+        </section>
+      </div>
+      <!-- fin cuadro resumen de datos -->
+
+      <!-- formulario -->
+      <form id="frmRegistross">
+        <section class="item-form mt-3">
+          <!-- fecha nacimiento, estado civil-->
+          <div class="d-flex-sabe main-group">
+            <div class="d-flex-sabe group-control">
+              <label for="fechaNacimiento" class="label-inline"
+                >Fecha de nacimiento</label
+              >
+              <div>
+                <input
+                  type="text"
+                  id="fechaNacimiento"
+                  name="fechaNacimiento"
+                  class="form-control form-control-sm datePick"
+                  placeholder="dd/mm/aaaa"
+                />
+              </div>
+            </div>
+            <div class="d-flex-sabe group-control">
+              <label for="estadoCivil" class="label-inline label-inline--right"
+                >Estado Civil</label
+              >
+              <div>
+                <select
+                  class="form-select form-select-sm medium-st"
+                  id="estadoCivil"
+                  name="estadoCivil"
+                >
+                  <option value="">Seleccione</option>
+                  <option value="Soltero">Soltero</option>
+                  <option value="Casado">Casado</option>
+                  <option value="Separado">Separado</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- telefono -->
+          <div class="d-flex-sabe main-group">
+            <div class="d-flex-sabe group-control">
+              <label for="telefono" class="label-inline">Teléfono</label>
+              <div>
+                <select
+                  class="form-select form-select-sm medium-st"
+                  id="tipoTelefono"
+                  name="tipoTelefono"
+                >
+                  <option value="">Seleccione</option>
+                  <option value="Fijo">Fijo</option>
+                  <option value="Celular">Celular</option>
+                </select>
+              </div>
+            </div>
+            <div class="d-flex-sabe group-control">
+              <label for="nroTelef" class="label-inline label-inline--right"
+                >Número telf.</label
+              >
+              <div>
+                <input
+                  type="text"
+                  id="nroTelef"
+                  name="nroTelef"
+                  class="form-control form-control-sm"
+                  placeholder="número"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Correo -->
+          <div class="d-flex-sabe main-group total-width">
+            <div class="d-flex-sabe group-control">
+              <label for="correo" class="label-inline"
+                >Correo Electrónico</label
+              >
+              <div>
+                <input
+                  type="email"
+                  id="correo"
+                  name="correo"
+                  class="form-control form-control-sm"
+                  placeholder="ingresa tu correo"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <hr />
+
+        <!-- direccion - ubigeo -->
+        <section class="item-form mt-3">
+          <div class="flex-condi">
+            <div class="label-inline" id="residencia-icon"></div>
+            <div class="no-icon">
+              <div class="mb-3">
+                <label for="direcActual" class="form-label form-label--bold"
+                  >Dirección donde resides actualmente</label
+                >
+                <div style="font-size: 14px">
+                  <input
+                    type="text"
+                    class="form-control form-control-sm control-wide"
+                    id="direcActual"
+                    name="direcActual"
+                    placeholder="Ingresa tu dirección"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ubigeo -->
+          <div class="d-flex-sabe main-group">
+            <div class="d-flex-sabe group-control">
+              <label for="directDpto" class="label-inline">Departamento</label>
+              <div>
+                <select
+                  class="form-select form-select-sm medium-st"
+                  id="directDpto"
+                  name="directDpto"
+                >
+                  <option value="">Seleccione</option>
+                  <option value="Lima">Lima</option>
+                  <option value="Piura">Piura</option>
+                  <option value="Callao">Callao</option>
+                </select>
+              </div>
+            </div>
+            <div class="d-flex-sabe group-control">
+              <label for="directRegion" class="label-inline label-inline--right"
+                >Provincia</label
+              >
+              <div>
+                <select
+                  class="form-select form-select-sm medium-st"
+                  id="directProvincia"
+                  name="directProvincia"
+                >
+                  <option value="">Seleccione</option>
+                  <option value="Lima">Lima</option>
+                  <option value="Piura">Piura</option>
+                  <option value="Callao">Callao</option>
+                </select>
+              </div>
+            </div>
+            <div class="d-flex-sabe group-control">
+              <label
+                for="directProvincia"
+                class="label-inline label-inline--right"
+                >Distrito</label
+              >
+              <div>
+                <select
+                  class="form-select form-select-sm medium-st"
+                  id="directDistrito"
+                  name="directDistrito"
+                >
+                  <option value="">Seleccione</option>
+                  <option value="Lima">Lima</option>
+                  <option value="Piura">Piura</option>
+                  <option value="Callao">Callao</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+
+        <!-- colegio procedencia -->
+        <section class="item-form mt-3">
+          <div class="flex-condi">
+            <div class="label-inline" id="colegio-icon"></div>
+            <div class="no-icon">
+              <div class="mb-3">
+                <label for="coleProcedencia" class="form-label form-label--bold"
+                  >Colegio de procedencia (último año estudiado)</label
+                >
+                <div style="font-size: 14px">
+                  <input
+                    type="text"
+                    class="form-control form-control-sm control-wide"
+                    id="coleProcedencia"
+                    name="coleProcedencia"
+                    placeholder="Ingresa el nombre de institución"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- tipo institucion -->
+          <div class="d-flex-sabe main-group">
+            <div class="d-flex-sabe group-control">
+              <label for="tipoInstitucion" class="label-inline"
+                >Tipo de institución</label
+              >
+              <div>
+                <select
+                  class="form-select form-select-sm medium-st"
+                  id="tipoInstitucion"
+                  name="tipoInstitucion"
+                >
+                  <option value="">Seleccione</option>
+                  <option value="Privado">Privado</option>
+                  <option value="Estatal">Estatal</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+
+        <!-- trabajo -->
+        <section class="item-form mt-3">
+          <div class="flex-condi">
+            <div class="label-inline" id="trabajo-icon"></div>
+            <div class="no-icon">
+              <div class="mb-3">
+                <label class="form-label form-label--bold">¿Trabajas?</label
+                ><br />
+                <div
+                  class="form-check form-check-inline"
+                  style="font-size: 14px"
+                >
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="laboras"
+                    id="labSi"
+                    value="si"
+                  />
+                  <label class="form-check-label" for="labSi">Si</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="laboras"
+                    id="labNo"
+                    value="no"
+                  />
+                  <label class="form-check-label" for="labNo">No</label>
+                </div>
+              </div>
+              <div class="mb-3 bloque-laboral">
+                <label for="centroLaboral" class="form-label form-label--bold"
+                  >Nombre de tu centro laboral</label
+                >
+                <div style="font-size: 14px">
+                  <input
+                    type="text"
+                    class="form-control form-control-sm control-wide"
+                    id="centroLaboral"
+                    name="centroLaboral"
+                    placeholder="nombre de tu centro laboral"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ubigeo -->
+          <div class="d-flex-sabe main-group bloque-laboral">
+            <div class="d-flex-sabe group-control">
+              <label for="trabDpto" class="label-inline">Departamento</label>
+              <div>
+                <select
+                  class="form-select form-select-sm medium-st"
+                  id="trabDpto"
+                  name="trabDpto"
+                >
+                  <option value="">Seleccione</option>
+                  <option value="Lima">Lima</option>
+                  <option value="Piura">Piura</option>
+                  <option value="Callao">Callao</option>
+                </select>
+              </div>
+            </div>
+            <div class="d-flex-sabe group-control">
+              <label
+                for="trabProvincia"
+                class="label-inline label-inline--right"
+                >Provincia</label
+              >
+              <div>
+                <select
+                  class="form-select form-select-sm medium-st"
+                  id="trabProvincia"
+                  name="trabProvincia"
+                >
+                  <option value="">Seleccione</option>
+                  <option value="Lima">Lima</option>
+                  <option value="Piura">Piura</option>
+                  <option value="Callao">Callao</option>
+                </select>
+              </div>
+            </div>
+            <div class="d-flex-sabe group-control">
+              <label for="trabDistrito" class="label-inline label-inline--right"
+                >Distrito</label
+              >
+              <div>
+                <select
+                  class="form-select form-select-sm medium-st"
+                  id="trabDistrito"
+                  name="trabDistrito"
+                >
+                  <option value="">Seleccione</option>
+                  <option value="Lima">Lima</option>
+                  <option value="Piura">Piura</option>
+                  <option value="Callao">Callao</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <!-- remuneracion mensual -->
+          <div class="d-flex-sabe main-group bloque-laboral">
+            <div class="d-flex-sabe group-control">
+              <label for="remuneracion" class="label-inline"
+                >Remuneración mensual</label
+              >
+              <div>
+                <input
+                  class="form-control form-control-sm"
+                  type="text"
+                  id="remuneracion"
+                  name="remuneracion"
+                  placeholder="S/."
+                />
+              </div>
+            </div>
+          </div>
+          <!-- ubigeo -->
+          <div class="d-flex-sabe main-group bloque-laboral">
+            <div class="d-flex-sabe group-control">
+              <label for="fechaIniLab" class="label-inline"
+                >Fecha de inicio laboral</label
+              >
+              <div>
+                <input
+                  class="form-control form-control-sm datePick"
+                  type="text"
+                  id="fechaIniLab"
+                  name="fechaIniLab"
+                  placeholder="dd/mm/aaaa"
+                />
+              </div>
+            </div>
+            <div class="d-flex-sabe group-control">
+              <label for="cargo" class="label-inline label-inline--right"
+                >Cargo</label
+              >
+              <div>
+                <input
+                  class="form-control form-control-sm"
+                  type="text"
+                  id="cargo"
+                  name="cargo"
+                  placeholder="cargo que ocupas"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+
+        <!-- salud -->
+        <section class="item-form mt-3">
+          <div class="flex-condi">
+            <div class="label-inline" id="salud-icon"></div>
+            <div class="no-icon">
+              <div>
+                <label class="form-label form-label--bold"
+                  >¿Presentas problemas de salud?</label
+                ><br />
+                <div
+                  class="form-check form-check-inline"
+                  style="font-size: 14px"
+                >
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="salud"
+                    id="probSi"
+                    value="si"
+                  />
+                  <label class="form-check-label" for="probSi">Si</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="salud"
+                    id="probNo"
+                    value="no"
+                  />
+                  <label class="form-check-label" for="probNo">No</label>
+                </div>
+              </div>
+              <div class="mb-3 bloque-salud" style="font-size: 14px">
+                <label for="diagnostico" class="form-label form-label--bold"
+                  >Diagnóstico</label
+                >
+                <textarea
+                  class="form-control"
+                  placeholder="diagnóstico"
+                  id="diagnostico"
+                  name="diagnostico"
+                  rows="2"
+                ></textarea>
+                <div class="form-text">
+                  *Registrar problemas de salud siempre y cuando esté llevando
+                  un tratamiento y genere un gasto considerable en la economía
+                  familiar a la fecha; de lo contrario dejarlo en blanco
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- gasto mensual -->
+          <div class="d-flex-sabe main-group bloque-salud">
+            <div class="d-flex-sabe group-control">
+              <label for="gastoMensual" class="label-inline"
+                >Gasto mensual por salud</label
+              >
+              <div>
+                <input
+                  class="form-control form-control-sm"
+                  type="text"
+                  id="gastoMensual"
+                  name="gastoMensual"
+                  placeholder="S/."
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="d-flex-sabe justify-content-center mt-5 mb-5">
+          <button type="submit" class="btn-submit-upc">GRABAR Y GUARDAR</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"
+    ></script>
+    <script src="./js/jquery-ui.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

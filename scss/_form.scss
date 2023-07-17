@@ -1,0 +1,128 @@
+.form-data {
+  font-size: 14px;
+}
+.info-user {
+  padding: 0.5rem 1.7rem;
+  border: 1px solid red;
+  border-radius: 30px;
+
+  @include breakpoint-up(medium) {
+    width: 800px;
+  }
+}
+
+.title-section {
+  font-family: 'zizou-slablight', Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+}
+
+.main-group {
+  gap: 0.5rem;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+
+  @include breakpoint-up(medium) {
+    justify-content: flex-start;
+  }
+}
+
+.group-control {
+  flex-direction: column;
+  font-size: 14px;
+  width: 100%;
+
+  @include breakpoint-up(medium) {
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    width: auto;
+  }
+}
+
+.form-label {
+  &--bold {
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+
+.label-form-generic {
+  font-weight: bold;
+  font-size: 14px;
+}
+.label-inline {
+  font-weight: bold;
+  @include breakpoint-up(medium) {
+    min-width: 135px;
+    text-align: right;
+  }
+
+  &--right {
+    @include breakpoint-up(medium) {
+      min-width: 70px;
+    }
+  }
+}
+
+.total-width {
+  width: 100%;
+
+  @include breakpoint-up(medium) {
+  }
+}
+
+.medium-st {
+  @include breakpoint-up(medium) {
+    width: 144px;
+  }
+}
+
+.input-col-2 {
+  @include breakpoint-up(medium) {
+    width: 145px;
+  }
+}
+
+#correo {
+  @include breakpoint-up(medium) {
+    min-width: 278px;
+  }
+}
+
+.control-wide {
+  width: 100%;
+  @include breakpoint-up(medium) {
+    min-width: 431px;
+  }
+}
+
+.flex-condi {
+  @include breakpoint-up(medium) {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+.icon-left-form {
+  display: none;
+  @include breakpoint-up(medium) {
+    display: block;
+  }
+}
+
+.btn-submit-upc {
+  background: red;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  padding: 0.6rem 1rem 0.3rem;
+  font-family: 'sgothic-bdcap', Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  transition: 0.2s ease-in-out 0s;
+}
+
+.btn-submit-upc:hover {
+  transform: scale(1.085);
+}

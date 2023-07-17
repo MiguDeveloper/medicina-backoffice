@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'sgothic-bdcap';
+  src: url('../fonts/SolanoGothicMVBStdBdCap.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'sgothic-bd';
+  src: url('../fonts/SolanoGothicMVB-Bd.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'zizou-slablight';
+  src: url('../fonts/zizou_Zizou-SlabLight.otf') format('truetype');
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--dark);
+  font-family: 'Arial Narrow', Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+label.error {
+  color: var(--color-required-error);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+input.error,
+select.error {
+  border-color: var(--color-required-error);
+}
+
+.d-flex-sabe {
+  display: flex;
+}
+
+#residencia-icon {
+  background: url('img/viviendaicono.svg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+#colegio-icon {
+  background: url('img/colegioicono.svg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+#trabajo-icon {
+  background: url('img/trabajoicono.svg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+}
+
+#salud-icon {
+  background: url('img/saludicono.svg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+}

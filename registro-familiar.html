@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nav</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-fluid main-head">
+      <div class="container-xl">
+        <header class="head d-flex justify-content-between">
+          <div
+            class="brands-parnerts d-flex justify-content-between align-items-center gap-4"
+          >
+            <img
+              src="img/logo-ipfe.svg"
+              height="50px"
+              alt="IPFE"
+              title="IPFE"
+            />
+            <div class="line-vertical"></div>
+            <img
+              src="img/stackoverflow-icon.svg"
+              height="50px"
+              alt="UPC"
+              title="UPC"
+            />
+          </div>
+          <div class="user-zone">
+            <nav>
+              <ul>
+                <li>
+                  <a class="user-auth d-flex align-items-center gap-1" href="#"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="icon icon-tabler icon-tabler-user"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      stroke-width="1"
+                      stroke="currentColor"
+                      fill="none"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                      <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"></path>
+                      <path
+                        d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"
+                      ></path>
+                    </svg>
+                    Bienvenido(a); Usuario XYZ
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="red"
+                      class="bi bi-caret-down-fill"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                      />
+                    </svg>
+                  </a>
+                  <ul class="sub-items">
+                    <li>
+                      <a href="#"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-mail-opened"
+                          width="24"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          stroke-width="1"
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            stroke="none"
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          ></path>
+                          <path d="M3 9l9 6l9 -6l-9 -6l-9 6"></path>
+                          <path
+                            d="M21 9v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"
+                          ></path>
+                          <path d="M3 19l6 -6"></path>
+                          <path d="M15 13l6 6"></path>
+                        </svg>
+                        Bandeja</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-lock"
+                          width="24"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          stroke-width="1"
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            stroke="none"
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          ></path>
+                          <path
+                            d="M5 13a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v6a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-6z"
+                          ></path>
+                          <path d="M11 16a1 1 0 1 0 2 0a1 1 0 0 0 -2 0"></path>
+                          <path d="M8 11v-4a4 4 0 1 1 8 0v4"></path>
+                        </svg>
+                        Cambiar Contraseña</a
+                      >
+                    </li>
+                    <li>
+                      <a href="#"
+                        ><svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-logout"
+                          width="24"
+                          height="18"
+                          viewBox="0 0 24 24"
+                          stroke-width="1"
+                          stroke="currentColor"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path
+                            stroke="none"
+                            d="M0 0h24v24H0z"
+                            fill="none"
+                          ></path>
+                          <path
+                            d="M14 8v-2a2 2 0 0 0 -2 -2h-7a2 2 0 0 0 -2 2v12a2 2 0 0 0 2 2h7a2 2 0 0 0 2 -2v-2"
+                          ></path>
+                          <path d="M9 12h12l-3 -3"></path>
+                          <path d="M18 15l3 -3"></path>
+                        </svg>
+                        Cerrar Sesión</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </header>
+      </div>
+    </div>
+    <div class="container">
+      <nav class="d-flex justify-content-center mt-3">
+        <ul>
+          <li><a href="#">INSTRUCCIONES</a></li>
+          <li>
+            <a href="#"
+              >INFORMACIÓN
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="red"
+                class="bi bi-caret-down-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+            </a>
+
+            <ul>
+              <li><a href="#">Información Personal</a></li>
+              <li><a href="#">Información Responsable(s) Económico(s)</a></li>
+              <li><a href="#">Información Socioeconómica</a></li>
+              <li><a href="#">Información de Propiedades</a></li>
+            </ul>
+          </li>
+          <li><a href="#">COMPOSICIÓN FAMILIAR</a></li>
+          <li><a href="#">ADJUNTAR DOCUMENTOS</a></li>
+          <li>
+            <a href="#"
+              >SOLICITUD
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="red"
+                class="bi bi-caret-down-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+            </a>
+
+            <ul>
+              <li><a href="#">Estado de Solicitud</a></li>
+              <li><a href="#">Enviar Solicitud</a></li>
+            </ul>
+          </li>
+          <li><a href="#">FORMATOS</a></li>
+        </ul>
+      </nav>
+
+      <h1 class="title-section">Registrar Familiar</h1>
+
+      <!-- formulario -->
+      <form class="form-data">
+        <div class="row mb-1">
+          <div class="col-sm-12 col-md-3">
+            <label for="parentesco" class="form-label form-label--bold"
+              >Parentesco</label
+            >
+            <select id="parentesco" class="form-select form-select-sm">
+              <option value="">Seleccione...</option>
+              <option value="uno">uno</option>
+              <option value="uno">uno</option>
+              <option value="uno">uno</option>
+              <option value="uno">uno</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mb-1">
+          <div class="col-sm-12 col-md-3">
+            <label for="priN" class="form-label form-label--bold"
+              >Primer Nombre</label
+            >
+            <input
+              type="text"
+              class="form-control form-control-sm"
+              id="priN"
+              placeholder="primer nombre"
+            />
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <label for="segN" class="form-label form-label--bold"
+              >Segundo Nombre</label
+            >
+            <input
+              type="text"
+              class="form-control form-control-sm"
+              id="segN"
+              placeholder="segundo nombre"
+            />
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <label for="apePat" class="form-label form-label--bold"
+              >Apellido Paterno</label
+            >
+            <input
+              type="text"
+              class="form-control form-control-sm"
+              id="apePat"
+              placeholder="apellido paterno"
+            />
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <label for="apeMat" class="form-label form-label--bold"
+              >Apellido Materno</label
+            >
+            <input
+              type="text"
+              class="form-control form-control-sm"
+              id="apeMat"
+              placeholder="apellido materno"
+            />
+          </div>
+        </div>
+        <div class="row mb-1">
+          <div class="col-sm-12 col-md-3">
+            <label for="fechNac" class="form-label form-label--bold"
+              >Fecha nacimiento</label
+            >
+            <input
+              type="text"
+              class="form-control form-control-sm"
+              id="fechNac"
+              placeholder="dd/mm/aaaa"
+            />
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <label for="estadoCiv" class="form-label form-label--bold"
+              >Estado civil</label
+            >
+            <select id="estadoCiv" class="form-select form-select-sm">
+              <option value="">Seleccione...</option>
+              <option value="uno">uno</option>
+              <option value="uno">uno</option>
+              <option value="uno">uno</option>
+              <option value="uno">uno</option>
+            </select>
+          </div>
+        </div>
+        <div class="row mb-1">
+          <div class="col-sm-12 col-md-3">
+            <label class="form-label form-label--bold"
+              >¿Depende de los ingresos del hogar?</label
+            ><br />
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="depenHogar"
+                id="depenSi"
+                value="si"
+              />
+              <label class="form-check-label" for="depenSi">Si</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="depenHogar"
+                id="depenNo"
+                value="no"
+              />
+              <label class="form-check-label" for="depenNo">No</label>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <label class="form-label form-label--bold">¿Vive con usted?</label
+            ><br />
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="viveConUsted"
+                id="viveSi"
+                value="si"
+              />
+              <label class="form-check-label" for="viveSi">Si</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input
+                class="form-check-input"
+                type="radio"
+                name="viveConUsted"
+                id="viveNo"
+                value="no"
+              />
+              <label class="form-check-label" for="viveNo">No</label>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <!-- trabajo -->
+        <section class="item-form mt-3">
+          <div class="flex-condi">
+            <div class="label-inline">edede</div>
+            <div class="no-icon">
+              <div class="mb-3 d-flex">
+                <div>
+                  <label class="form-label form-label--bold">¿Trabaja?</label
+                  ><br />
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="laboras"
+                      id="labSi"
+                      value="Si"
+                    />
+                    <label class="form-check-label" for="labSi">Si</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="laboras"
+                      id="labNo"
+                      value="No"
+                    />
+                    <label class="form-check-label" for="labNo">No</label>
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="centroLaboral" class="form-label form-label--bold"
+                  >Nombre de la empresa donde laboral</label
+                >
+                <input
+                  type="text"
+                  class="form-control form-control-sm control-wide"
+                  id="centroLaboral"
+                  placeholder="ingresa el nombre de la empresa"
+                />
+              </div>
+              <div class="mb-3">
+                <label class="form-label form-label--bold">¿Estudia?</label
+                ><br />
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="estudia"
+                    id="estudiaSi"
+                    value="Si"
+                  />
+                  <label class="form-check-label" for="estudiaSi">Si</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="estudia"
+                    id="estudiaNo"
+                    value="No"
+                  />
+                  <label class="form-check-label" for="estudiaNo">No</label>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="centroEstudios" class="form-label form-label--bold"
+                  >Nombre de la institución donde estudia</label
+                >
+                <input
+                  type="text"
+                  class="form-control form-control-sm control-wide"
+                  id="centroEstudios"
+                  placeholder="nombre de la institución"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- nivel -->
+          <div class="d-flex main-group">
+            <div class="d-flex group-control">
+              <label for="nivel" class="label-inline">Nivel</label>
+              <select class="form-select form-select-sm input-col-2" id="nivel">
+                <option value="">Seleccione</option>
+                <option value="Fijo">Fijo</option>
+                <option value="Celular">Celular</option>
+              </select>
+            </div>
+            <div class="d-flex group-control">
+              <label for="tipoInsti" class="label-inline"
+                >Tipo de institución</label
+              >
+              <select
+                class="form-select form-select-sm input-col-2"
+                id="tipoInsti"
+              >
+                <option value="">Seleccione</option>
+                <option value="Fijo">Fijo</option>
+                <option value="Celular">Celular</option>
+              </select>
+            </div>
+          </div>
+        </section>
+
+        <hr />
+
+        <section class="item-form mt-3">
+          <div class="flex-condi">
+            <div class="label-inline"></div>
+            <div class="no-icon">
+              <div class="mb-3 d-flex">
+                <div>
+                  <label class="form-label form-label--bold"
+                    >¿El familiar presenta problemas de salud?</label
+                  ><br />
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="salud"
+                      id="probSi"
+                      value="Si"
+                    />
+                    <label class="form-check-label" for="probSi">Si</label>
+                  </div>
+                  <div class="form-check form-check-inline">
+                    <input
+                      class="form-check-input"
+                      type="radio"
+                      name="salud"
+                      id="probNo"
+                      value="No"
+                    />
+                    <label class="form-check-label" for="probNo">No</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="d-flex justify-content-center mt-5 mb-5">
+          <button type="submit" class="btn-submit-upc">GRABAR</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

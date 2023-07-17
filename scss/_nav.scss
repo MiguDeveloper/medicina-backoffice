@@ -1,0 +1,83 @@
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  position: relative;
+}
+
+nav ul li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #333;
+  font-family: 'sgothic-bdcap', Arial, Helvetica, sans-serif;
+  font-size: 18px;
+
+  &.user-auth {
+    font-family: 'zizou-slablight', Arial, Helvetica, sans-serif;
+    background: white;
+    border-radius: 19px;
+    font-size: 14px;
+  }
+}
+
+nav ul li:hover > a {
+  background-color: #f9f9f9;
+  color: red;
+
+  &.user-auth {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
+
+nav ul li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 999;
+}
+
+nav ul li:hover > ul {
+  display: block;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+nav ul li ul li {
+  width: 100%;
+}
+
+nav ul li ul li a {
+  padding: 5px 20px;
+  background-color: white;
+  white-space: nowrap;
+  font-family: 'zizou-slablight', Arial, Helvetica, sans-serif;
+}
+
+nav ul li ul li a:hover {
+  background-color: #f9f9f9;
+}
+
+.head {
+  flex-direction: column;
+  gap: 1rem;
+
+  @include breakpoint-up(medium) {
+    flex-direction: row;
+  }
+}
+.main-head {
+  background: red;
+  padding: 2rem 0;
+}
+
+.line-vertical {
+  height: 60px;
+  border-left: 1px solid white;
+}

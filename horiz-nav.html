@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      nav {
+        background-color: #333;
+      }
+
+      nav label.menu-icon {
+        display: none;
+        color: #fff;
+        padding: 10px;
+        cursor: pointer;
+      }
+
+      nav ul.menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      nav ul.menu li {
+        position: relative;
+      }
+
+      nav ul.menu li a {
+        display: block;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      nav ul.menu li:hover > a {
+        background-color: #555;
+      }
+
+      nav ul.menu li input.sub-menu-toggle {
+        display: none;
+      }
+
+      nav ul.menu li label {
+        display: none;
+        color: #fff;
+        padding: 10px 20px;
+        cursor: pointer;
+      }
+
+      nav ul.menu li:hover > label {
+        background-color: #555;
+      }
+
+      nav ul.menu li:hover > ul.sub-menu {
+        display: block;
+      }
+
+      nav ul.menu li ul.sub-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #555;
+      }
+
+      nav ul.menu li ul.sub-menu li {
+        display: block;
+      }
+
+      nav ul.menu li ul.sub-menu li a {
+        padding: 10px 40px;
+      }
+
+      @media screen and (max-width: 768px) {
+        nav label.menu-icon {
+          display: block;
+        }
+
+        nav ul.menu {
+          flex-direction: column;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          width: 100%;
+          background-color: #333;
+          display: none;
+        }
+
+        nav ul.menu li {
+          width: 100%;
+        }
+
+        nav ul.menu li a {
+          border-bottom: 1px solid #fff;
+        }
+
+        nav ul.menu li label {
+          display: block;
+          border-bottom: 1px solid #fff;
+        }
+
+        nav ul.menu li input.sub-menu-toggle:checked ~ ul.sub-menu {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="menu">
+        <li><a href="#">Inicio</a></li>
+        <li>
+          <input type="checkbox" id="products-toggle" class="sub-menu-toggle" />
+          <label for="products-toggle">Productos</label>
+          <ul class="sub-menu">
+            <li><a href="#">Producto 1</a></li>
+            <li><a href="#">Producto 2</a></li>
+            <li><a href="#">Producto 3</a></li>
+          </ul>
+        </li>
+        <li>
+          <input type="checkbox" id="services-toggle" class="sub-menu-toggle" />
+          <label for="services-toggle">Servicios</label>
+          <ul class="sub-menu">
+            <li><a href="#">Servicio 1</a></li>
+            <li><a href="#">Servicio 2</a></li>
+            <li><a href="#">Servicio 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
